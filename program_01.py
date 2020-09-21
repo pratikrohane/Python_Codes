@@ -1,6 +1,6 @@
 #Add to Numbers
 
-num1 = 15
+num1 = 42
 num2 = 86
 
 sum_nums = num1 + num2
