@@ -1,14 +1,14 @@
-#Check Year leaf Year or Not
+#Check Year leap Year or Not
 
 year = int(input())
 
 if year % 4 == 0:
     if year % 100 == 0:
         if year % 400 == 0:
-            print("Leaf Year")
+            print("Leap Year")
         else:
-            print("Not Leaf Year")
+            print("Not Leap Year")
     else:
-        print("Leaf Year")
+        print("Leap Year")
 else:
-    print("Not Leaf Year")
+    print("Not Leap Year")
